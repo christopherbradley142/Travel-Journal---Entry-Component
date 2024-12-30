@@ -1,0 +1,61 @@
+html, body {
+    margin: 0;
+    color: #2b283a;
+}
+
+header {
+    background: #F55A5A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 55px;
+}
+
+header > img {
+    width: 24px;
+    margin-right: 7px;
+}
+
+header > h1 {
+    font-size: 0.9rem;
+    font-weight: 500;
+    font-family: Inter;
+}
+
+section > h2 {
+    font-weight: 900;
+    font-size: 2.4rem;
+    margin-top: 2px;
+
+}
+
+.travelPix {
+    height: auto;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.entry {
+    display: flex;
+    justify-content: center;
+}
+
+.cardHorizontal {
+    display: flex;
+   align-items: center;
+   gap:10px;
+}
+
+.location {
+    font-weight: 100;
+    letter-spacing: 3px;
+}
+
+.linkMaps {
+    color: #bfbec3;
+}
+
+.date {
+    font-weight: bold;
+}
